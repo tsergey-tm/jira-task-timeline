@@ -1,0 +1,40 @@
+{
+  "issues": [
+    {
+      "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+      "id": "856917",
+      "self": "https://jira.tochka.com/rest/api/latest/issue/856917",
+      "key": "FT-9206",
+      "fields": {
+        "summary": "sdfsdtgbdhtndh dhd yrhdtyjdtujmfu"
+      },
+      "changelog": {
+        "startAt": 0,
+        "maxResults": 203,
+        "total": 203,
+        "histories": [
+          ...
+        ]
+      }
+    }
+  ],
+  "field":[
+    {
+      "id": "customfield_21521",
+      "name": "Музыкальное сопровождение",
+      "custom": true,
+      "orderable": true,
+      "navigable": true,
+      "searchable": true,
+      "clauseNames": [
+        "cf[21521]",
+        "Музыкальное сопровождение"
+      ],
+      "schema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+        "customId": 21521
+      }
+    }
+  ]
+}

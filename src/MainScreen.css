@@ -1,0 +1,12 @@
+.MainScreenFieldSelector {
+    margin: 0.5em;
+    text-align: left;
+    flex: 0 1 auto;
+}
+
+.MainScreen {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}

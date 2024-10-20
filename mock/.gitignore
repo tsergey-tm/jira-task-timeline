@@ -1,0 +1,4 @@
+*.json
+*.mock
+!mock.routes.json
+!mock.sample.json

@@ -1,0 +1,4 @@
+{
+  "/rest/api/2/field": "/field/",
+  "/rest/api/2/issue/:key": "/issues/:key"
+}
