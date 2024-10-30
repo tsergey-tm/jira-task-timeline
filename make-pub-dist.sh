@@ -9,7 +9,7 @@ git checkout main
 git reset --hard origin/main
 cd ..
 rm -rf ./pub-dist/*
-cp -r ./build/* ./pub-dist/
+cp -r ./dist/* ./pub-dist/
 cp -r ./pub-dist-src/* ./pub-dist/
 cd ./pub-dist
 cat ./manifest.json | jq '.version = "'$(date +%Y%m%d.%H%M%S)'"' > ./manifest.new
