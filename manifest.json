@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Jira Issue timeline viewer",
-  "version": "20241030.184649",
+  "version": "20241030.185836",
   "description": "Show Jira issue timeline",
   "icons": {
     "16": "icons/icon_16.png",
