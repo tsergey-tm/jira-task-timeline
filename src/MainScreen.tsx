@@ -115,7 +115,7 @@ export const MainScreen: FC<{ baseUrl: string, issueKey: string }> =
             const jiraFieldsUrl = baseUrl + "/rest/api/2/field";
             let jiraFieldsFetch = fetch(jiraFieldsUrl).then(res => res.ok ? res.json() : undefined);
 
-            const jiraIssueUrl = baseUrl + "/rest/api/2/issue/" + issueKey;
+            const jiraIssueUrl = baseUrl + "/rest/api/2/issue/" + issueKey + "?fields=summary,created&expand=changelog";
             let jiraIssueFetch = fetch(jiraIssueUrl).then(res => res.ok ? res.json() : undefined);
 
             const [jiraFieldsData, jiraIssueData] =
