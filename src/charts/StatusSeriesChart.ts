@@ -109,7 +109,7 @@ export function transformDataToSeriesStatus(field: JiraFieldInfo, category: stri
                 field.history[i].time,
                 Math.min(maxTime, new Date().valueOf()),
                 categoryIndex,
-                "status",
+                status,
                 getStatusColor(status)
             ]
         )
